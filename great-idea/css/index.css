@@ -84,29 +84,48 @@ a {
 /* Header */
 
 header {
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: space-around;
+
 }
 
 .header-text {
-
+	display: flex;
+	flex-flow: row;
+	justify-content: space-around;
 }
 
 .header-text h1 {
-
+	height: 50px;
+	width: 50px;
+	margin: 20px;
+	border: 1px solid blue;
 }
 
 .header-text button {
-
+	height: 50px;
+	width: 50px;
+	margin: 20px;
+	border: 1px solid blue;
 }
 
 .header-img {
+	display: flex;
+	flex-flow: row;
+	justify-content: space-around;
+}
 
+.header-img img {
+	height: 50px;
+	width: 50px;
+	margin: 20px;
+	border: 1px solid blue;
 }
 
 
 /* Handles Features and About Section */
+
+.top-content {
+
+}
 
 .section-top-a {
 	display: flex;
@@ -116,16 +135,22 @@ header {
 
 .section-top-b {
 	display: flex;
-	flex-flow: row wrap;
+	flex-flow: row;
 	justify-content: space-around;
 }
 
 .top-content h3 {
-
+	height: 50px;
+	width: 50px;
+	margin: 20px;
+	border: 1px solid blue;
 }
 
 .top-content p {
-
+	height: 100px;
+  width: 250px;
+  margin: 20px;
+  border: 1px solid blue;
 }
 
 /* Handles Middle Img */
