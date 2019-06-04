@@ -11,6 +11,8 @@
 
 header {
   display: flex;
+  flex-flow: row nowrap;
+  margin-bottom: 20px;
 }
 
 header nav {
@@ -21,8 +23,8 @@ header nav {
 }
 
 header nav a {
-  margin-right: 66px;
-  font-size: 14px;
+  margin-right: 64px;
+  font-size: 15px;
   color: gray;
   text-decoration: none;
 }
@@ -39,43 +41,76 @@ header nav a:last-child {
   margin-right: 0;
 }
 
+header .logo {
+  padding-top: 26px;
+  padding-left: 2px;
+}
+
 /* Services */
 
 .services {
-  border-bottom: 1px solid black;
+  margin-top: 28px;
+  margin-bottom: 40px;
 }
 
 .services h1 {
-  font-size: 30px;
+  font-size: 25px;
 }
+
+.services p {
+  line-height: 1.25;
+}
+
+hr {
+    border: 1px solid black;
+}
+
 
 /* Content */
 
-section .column {
+.content {
+  margin-top: 20px;
+}
+
+section .column-left, section .column-right {
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
   background-color: #F5F5F5;
   border: 1px solid black;
-  margin: 10px;
-  padding: 10px;
+  height: 250px;
+  padding-top: 5px;
+}
+
+section .column-left {
+  margin-right: 40px;
+  margin-bottom: 40px;
+}
+
+section .row-top, section .row-middle, section .row-bottom {
+  display: flex;
+  flex-direction: row;
 }
 
 section .row-top {
-  display: flex;
-  flex-direction: row;
+  margin-top: 40px;
 }
 
 section .row-middle {
-  display: flex;
-  flex-direction: row;
-}
-
-section .row-bottom {
-  display: flex;
-  flex-direction: row;
+  margin-top: 3px;
 }
 
 /* Info */
+
+.bottom-border {
+  border: 1px solid black;
+}
+
+.info {
+  margin-top: 42px;
+  display: flex;
+  flex-flow: row nowrap;
+}
 
 section .text-info li {
   margin-bottom: 15px;
@@ -89,12 +124,6 @@ section .text-info li {
 section .text-info {
   display: flex;
   flex-direction: column;
-}
-
-.info {
-  border-top: 1px solid black;
-  display: flex;
-  flex-flow: row nowrap;
 }
 
 /* Footer */
