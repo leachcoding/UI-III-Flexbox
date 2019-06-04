@@ -1,0 +1,47 @@
+/* Container Div */
+
+.container {
+  width: 880px;
+  /* TB LR */
+  margin: 0 auto;
+}
+
+/* Header */
+
+header {
+  display: flex;
+}
+
+header nav {
+  display: flex;
+  width: 691px;
+  vertical-align: top;
+  margin-top: 35px;
+}
+
+header nav a {
+  margin-right: 66px;
+  font-size: 14px;
+  color: gray;
+  text-decoration: none;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+header nav a:first-child {
+  margin-left: 0;
+}
+
+header nav a:last-child {
+  margin-right: 0;
+}
+
+/* Services */
+
+/* Content */
+
+/* Info */
+
+/* Footer */
