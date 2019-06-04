@@ -1,13 +1,17 @@
+/* Container Div */
+
 .container {
   width: 880px;
   /* TB LR */
   margin: 0 auto;
 }
 
-/* header */
+/* Header */
+
 header {
   display: flex;
 }
+
 header nav {
   display: flex;
   width: 691px;
@@ -16,7 +20,7 @@ header nav {
 }
 
 header nav a {
-  margin-right: 65px;
+  margin-right: 66px;
   font-size: 14px;
   color: gray;
   text-decoration: none;
@@ -38,10 +42,16 @@ header .logo {
   margin-top: 25px;
 }
 
-/* cta */
+/* Cta */
+
+.cta {
+  display: flex;
+  flex-direction: row;
+}
 
 .cta .cta-text {
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
   vertical-align: top;
   font-size: 77px;
   margin-top: 120px;
@@ -65,9 +75,10 @@ header .logo {
 }
 
 .cta img {
-  display: inline-block;
   margin-top: 69px;
 }
+
+/* Main Content */
 
 .main-content {
   border-top: 1px solid black;
@@ -77,11 +88,14 @@ header .logo {
 
 .main-content .top-content {
   padding: 0 10px;
+  display: flex;
+  flex-direction: row;
 }
 
 .main-content .top-content .text-content {
   width: 410px;
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
   margin-right: 34px;
 }
 
@@ -96,17 +110,22 @@ header .logo {
 .main-content .bottom-content {
   margin-top: 37px;
   padding: 0 10px;
+  display: flex;
+  flex-direction: row;
 }
 
 .main-content .bottom-content .text-content {
   width: 275px;
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
   margin-right: 12px;
 }
 
 .main-content .bottom-content .text-content:last-child {
   margin-right: 0;
 }
+
+/* Contact Information */
 
 .contact {
   margin-top: 57px;
@@ -117,6 +136,8 @@ header .logo {
 .contact p {
   margin: 20px 0;
 }
+
+/* Footer */
 
 footer {
   margin: 32px 0;
