@@ -59,11 +59,17 @@ header .logo {
   padding: 0px 75px;
 }
 
+.cta .cta-text h1 {
+  margin-left: 10px;
+}
+
 .cta .cta-text button {
   background: white;
   vertical-align: top;
-  margin-top: 6px;
-  padding: 8px 44px;
+  width: 175px;
+  height: 35px;
+  margin-left: 74px;
+  margin-top: 3px;
   font-size: 17px;
   border: 1px solid black;
   cursor: pointer;
@@ -76,6 +82,7 @@ header .logo {
 
 .cta img {
   margin-top: 69px;
+  margin-left: 20px;
 }
 
 /* Main Content */
@@ -87,9 +94,12 @@ header .logo {
 }
 
 .main-content .top-content {
-  padding: 0 10px;
   display: flex;
   flex-direction: row;
+}
+
+.main-content .top-content p {
+  line-height: 1.15;
 }
 
 .main-content .top-content .text-content {
@@ -104,43 +114,48 @@ header .logo {
 }
 
 .main-content .middle-img {
-  margin-top: 45px;
+  margin-top: 40px;
 }
 
 .main-content .bottom-content {
   margin-top: 37px;
-  padding: 0 10px;
   display: flex;
   flex-direction: row;
 }
 
 .main-content .bottom-content .text-content {
-  width: 275px;
+  width: 290px;
   display: flex;
   flex-direction: column;
-  margin-right: 12px;
+  margin-right: 10px;
+  flex: 1;
 }
 
-.main-content .bottom-content .text-content:last-child {
-  margin-right: 0;
+.main-content .bottom-content p {
+  line-height: 1.17;
 }
+
 
 /* Contact Information */
 
 .contact {
-  margin-top: 57px;
+  margin-top: 45px;
   border-top: 1px solid black;
-  padding: 39px 10px 0;
 }
 
+.contact h4 {
+  margin-top: 36px;
+}
+
+
 .contact p {
-  margin: 20px 0;
+  margin: 21px 0;
 }
 
 /* Footer */
 
 footer {
-  margin: 32px 0;
+  margin: 51px 10px;
   text-align: center;
   font-size: 14px;
 }
