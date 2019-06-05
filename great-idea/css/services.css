@@ -155,6 +155,23 @@ section .text-info p{
 /* Footer */
 footer {
   margin-top: 87px;
+  margin-bottom: 50px;
   text-align: center;
   font-size: 16px;
+}
+
+
+/* STRETCH GOAL */
+
+@media (max-width: 500px) {
+
+   section .row-top, section .row-middle, section .row-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+    section .row-middle {
+      margin-top: 35px;
+      margin-bottom: 35px;
+  }
 }
