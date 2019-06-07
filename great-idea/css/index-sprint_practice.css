@@ -1,0 +1,167 @@
+/* Main Container */
+
+.main-container {
+  width: 880px;
+  /* TB LR */
+  margin: 0 auto;
+}
+
+/* Header */
+
+.parent-header {
+  display: flex;
+}
+
+.parent-header .parent-nav {
+  display: flex;
+  width: 691px;
+  vertical-align: top;
+  margin-top: 40px;
+
+}
+
+.parent-header .parent-nav a {
+  margin-right: 66px;
+  font-size: 14px;
+  color: gray;
+  text-decoration: none;
+}
+
+.parent-header .parent-nav a:hover {
+  text-decoration: underline;
+}
+
+.parent-header .parent-nav a:first-child {
+  margin-left: 0;
+}
+
+.parent-header .parent-nav a:last-child {
+  margin-right: 0;
+}
+
+.parent-header .logo {
+  margin-top: 27px;
+}
+
+/* Title Section */
+
+.parent-title_section {
+  display: flex;
+  flex-direction: row;
+}
+
+.parent-title_section .child-title_section {
+  display: flex;
+  flex-direction: column;
+  vertical-align: top;
+  font-size: 77px;
+  margin-top: 120px;
+  text-align: center;
+  padding: 0px 75px;
+}
+
+.parent-title_section .child-title_section h1 {
+  margin-left: 10px;
+  margin-top: 7px;
+  letter-spacing: 1px;
+}
+
+.parent-title_section .child-title_section button {
+  background: white;
+  vertical-align: top;
+  width: 175px;
+  height: 35px;
+  margin-left: 74px;
+  margin-top: -3px;
+  font-size: 17px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.parent-title_section .child-title_section button:hover {
+  background: black;
+  color: white;
+}
+
+.parent-title_section img {
+  margin-top: 69px;
+  margin-left: 20px;
+}
+/* Main Content */
+
+.main-content {
+  border-top: 1px solid black;
+  margin-top: 78px;
+  padding-top: 39px;
+}
+
+.main-content .top-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.main-content .top-content p {
+  line-height: 1.15;
+}
+
+.main-content .top-content .text-content {
+  width: 410px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 38px;
+  margin-top: 3px;
+}
+
+.main-content .top-content .text-content:last-child {
+  margin-right: 0;
+}
+
+.main-content .middle-img {
+  margin-top: 37px;
+}
+
+.main-content .bottom-content {
+  margin-top: 37px;
+  display: flex;
+  flex-direction: row;
+}
+
+.main-content .bottom-content .text-content {
+  width: 33.33%;
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+  flex: 1;
+}
+
+.main-content .bottom-content .text-content:last-child {
+  margin-left: 20px;
+}
+
+.main-content .bottom-content p {
+  line-height: 1.17;
+}
+
+
+/* Contact Information */
+
+.contact-information {
+  margin-top: 45px;
+  border-top: 1px solid black;
+}
+
+.contact-information h4 {
+  margin-top: 36px;
+}
+
+.contact-information p {
+  margin: 21px 0;
+}
+
+/* Footer */
+
+footer {
+  margin: 51px 10px;
+  text-align: center;
+  font-size: 14px;
+}
