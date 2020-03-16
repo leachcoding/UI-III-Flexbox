@@ -1,0 +1,177 @@
+/* Container Div */
+
+.container {
+  width: 880px;
+  /* TB LR */
+  margin: 0 auto;
+  font-weight: 600;
+}
+
+/* Header */
+
+header {
+  display: flex;
+  flex-flow: row nowrap;
+  margin-bottom: 19px;
+}
+
+header nav {
+  display: flex;
+  width: 691px;
+  vertical-align: top;
+  margin-top: 35px;
+}
+
+header nav a {
+  margin-right: 64px;
+  font-size: 15px;
+  color: gray;
+  text-decoration: none;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+header nav a:first-child {
+  margin-left: 0;
+}
+
+header nav a:last-child {
+  margin-right: 0;
+}
+
+header .logo {
+  padding-top: 26px;
+  padding-left: 2px;
+}
+
+/* Services */
+
+.services {
+  margin-top: 28px;
+  margin-bottom: 40px;
+}
+
+.services h1 {
+  font-size: 25px;
+}
+
+.services p {
+  line-height: 1.25;
+}
+
+hr {
+    border: 1px solid black;
+}
+
+
+/* Content */
+
+.content {
+  margin-top: 20px;
+}
+
+section .column-left, section .column-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #F5F5F5;
+  border: 1px solid black;
+  height: 250px;
+  padding: 10px;
+}
+
+section .column-left {
+  margin-right: 40px;
+  margin-bottom: 40px;
+}
+
+section .column-left-3, section .column-right-3 {
+  margin-bottom: 32px;
+}
+
+section .row-top, section .row-middle, section .row-bottom {
+  display: flex;
+  flex-direction: row;
+}
+
+section .row-top {
+  margin-top: 40px;
+}
+
+section .row-middle {
+  margin-top: 3px;
+}
+
+section button {
+  margin-top: 22px;
+  margin-left: 10px;
+  height: 35px;
+  width: 140px;
+  border-radius: 8px;
+}
+
+/* Info */
+
+.bottom-border {
+  border: 1px solid black;
+}
+
+.info {
+  margin-top: 42px;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+section .text-info {
+  display: flex;
+  flex-direction: column;
+}
+
+section .text-info ul {
+  margin-top: 15px;
+}
+
+section .text-info li {
+  margin-top: 16px;
+  margin-bottom: 15px;
+  margin-left: 18px;
+  padding-left: 4px;
+  list-style-type: square;
+  font-weight: 600;
+  line-height: .95;
+}
+
+section .text-info p{
+  margin-top: 6px;
+  line-height: 1.2;
+}
+
+.img-info img {
+  margin-left: 50px;
+}
+
+/* Footer */
+footer {
+  margin-top: 87px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 16px;
+}
+
+
+/* STRETCH GOAL */
+
+@media (max-width: 500px) {
+
+   section .row-top, section .row-middle, section .row-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+    section .row-middle {
+      margin-top: 35px;
+      margin-bottom: 35px;
+  }
+}
